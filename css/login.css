@@ -1,0 +1,114 @@
+body{
+	font-size: 12px;
+	color:#333;
+}
+
+/*设置主体部分居中*/
+.container_1{
+	margin:0 auto;
+	width: 1100px;
+}
+
+/*轮播图居中*/
+.container_2{
+	margin:0 auto;
+	width: 1200px;
+}
+
+/*解决高度塌陷的问题*/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+ .content{
+ 	width: 800px;
+ 	height:450px;
+ 	background:url(../img/bg.png) no-repeat;
+ 	box-shadow: 2px 2px 10px #909090;
+ 	position: relative;
+ 	
+ }
+
+.content .login{
+	width: 230px;
+	height:450px;
+	position: absolute;
+	right:85px;
+	top: 120px;
+}
+
+.content .login h1{
+	font:16px 微软雅黑 bold;
+	color:#262626;
+	padding-bottom: 30px;
+}
+
+.content .login .input_content input{
+	width:230px;
+	height:40px;
+	border:1px solid #dad9d6;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.content .login .input_content button{
+	width:250px;
+	height:40px;
+	background-color: #262626;
+	color:#fff;
+	border:0px;
+}
+
+.footer{
+	height:350px;
+	background-color: black;
+	padding-top: 50px;
+	margin-top: 100px;
+}
+
+.footer .info .school{
+	height:200px;
+	width:465px;
+	float:left;
+}
+
+.footer .info .contact{
+	height:200px;
+	width:465px;
+	float:left;
+}
+
+.footer .info h3{
+	font:20px  bitter;
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+.footer .info  p{
+	font:14px Adobe 黑体 Std;
+	color:gray;
+}
+
+.footer .info  p img{
+	padding-top:6px;
+	width:16px;
+	padding-right: 10px;
+}
+
+.footer .info  p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer .copyright{
+	margin-top:70px;
+	border-top:1px solid gray;
+	padding-top: 25px;
+	font:13px lato;
+	color:gray;
+}

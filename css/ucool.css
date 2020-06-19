@@ -1,0 +1,179 @@
+body{
+	font-size: 12px;
+	color:#333;
+}
+
+/*设置主体部分居中*/
+.container_1{
+	margin:0 auto;
+	width: 1100px;
+}
+
+/*轮播图居中*/
+.container_2{
+	margin:0 auto;
+	width: 1200px;
+}
+
+/*解决高度塌陷的问题*/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+.content{
+	height:1800px;
+}
+
+.content .ucool{
+	height:500px;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.content .ucool .shirt{
+	float:left;
+	width: 350px;
+	height:450px;
+	box-shadow: 2px 2px 5px #909090;
+	margin:30px 30px 0 6px;
+
+}
+
+.content .ucool .shirt img{
+	height:300px;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+.content .ucool .shirt span{
+	font:40px Adobe 黑体 Std;
+	padding-left: 128px;
+	margin-top: 30px;
+}
+
+.content .ucool .shirt span b{
+	font-size:30px;
+}
+
+.content .ucool .text{
+	position: absolute;
+	right:65px;
+	top:150px;
+}
+
+.content .ucool .text h1{
+	font:46px pingfang;
+	color:#333;
+}
+
+.content .ucool .text h3{
+	font:25px hind;
+	color:#666;
+	margin-top:20px;
+	margin-bottom: 50px;
+}
+
+.content .ucool .text .enter{
+	width: 130px;
+	height:45px;
+	background-color: #85a8cb;
+	border-radius: 5px;
+}
+
+.content .ucool .text .enter a{
+	font:18px hind bold;
+	color:#fff;
+	line-height:45px;
+	padding-left: 20px;
+}
+
+.content .postcard  {
+	text-align: center;
+}
+
+.content .postcard ul{
+	list-style: none;
+}
+
+.content .postcard ul li{
+	float: left;
+	margin-right: 30px;
+	margin-left: 6px;
+	margin-bottom:30px;
+}
+
+.content .postcard ul li img{
+	width:330px;
+}
+
+.content .postcard span{
+	font:40px Adobe 黑体 Std;
+}
+
+.content .postcard span b{
+	font-size:32px;
+}
+
+.content .postcard a{
+	display: inline-block;
+	width:80px;
+	height:30px;
+	font-size: 12px;
+	background-color: #85a8cb;
+	color:#fff;
+	border-radius: 5px;
+	line-height:30px;
+	margin-left: 30px;
+}
+
+.footer{
+	height:350px;
+	background-color: black;
+	padding-top: 50px;
+}
+
+.footer .info .school{
+	height:200px;
+	width:465px;
+	float:left;
+}
+
+.footer .info .contact{
+	height:200px;
+	width:465px;
+	float:left;
+}
+
+.footer .info h3{
+	font:20px  bitter;
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+.footer .info  p{
+	font:14px Adobe 黑体 Std;
+	color:gray;
+}
+
+.footer .info  p img{
+	padding-top:6px;
+	width:16px;
+	padding-right: 10px;
+}
+
+.footer .info  p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer .copyright{
+	margin-top:70px;
+	border-top:1px solid gray;
+	padding-top: 25px;
+	font:13px lato;
+	color:gray;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人网站设计</title>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<link rel="stylesheet" href="../css/reset.css">
+	<!-- 处理默认样式-->
+	<link rel="stylesheet" href="../css/index.css" >
+	<!-- 公共的css-->
+	<link rel="shortcut icon" href="" type="image/x-icon" />
+	<!--网页的标题的图标-->
+</head>
+<body>
+	<div class="header">
+		<div class="container_1">
+			<div class="logo">
+				<a href="../login.html">
+					<img src="../img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<!-- 设置target为_top避免新页面跳转后还嵌套在iframe中 -->
+					<a id="home" target="_top" href="../index.html"><li>HOME</li></a>
+					<a id="basketball" target="_top" href="../basketball.html"><li>BASKETBALL</li></a>
+					<a id="intro" target="_top" href="../intro.html"><li>INTRO</li></a>
+					<a id="ucool" target="_top" href="../ucool.html"><li>UCOOL</li></a>
+					<a id="login" target="_top" href="../login.html"><li>LOGIN</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		function chooseActive(id) {
+			document.getElementById(id).className = 'nav_active'
+		}
+	</script>
+</body>
+</html>

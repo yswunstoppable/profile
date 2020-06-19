@@ -1,0 +1,82 @@
+body{
+	font-size: 12px;
+	color:#000;
+}
+
+/*设置主体部分居中*/
+.container_1{
+	margin:0 auto;
+	width: 1100px;
+}
+
+/*解决高度塌陷的问题*/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+.content{
+	height:1550px;
+	margin-top: 50px;
+}
+
+.content .title{
+	float:middle;
+	text-align: center;
+}
+
+.content .title h1{
+	font:30px 微软雅黑 ;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.content .title p{
+	font:16px 微软雅黑;
+	margin-bottom:60px;
+}
+
+.content .head{
+	float:right;
+	height:150px;
+}
+
+.content table{
+	margin-top: 20px;
+}
+
+.content .headline{
+	font:22px 微软雅黑;
+	line-height: 30px;
+	border-bottom:3px solid gray;
+}
+
+.content .headline td{
+	padding-bottom: 5px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.content .summary{
+	font:18px 微软雅黑 ;
+	line-height: 35px;
+}
+
+.content .summary td{
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.content .achievement{
+	font:16px 微软雅黑;
+	line-height: 35px;
+}
+
+.content table img{
+	width: 10px;
+	padding-right:6px;
+	padding-left: 5px;
+}
