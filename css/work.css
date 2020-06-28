@@ -1,0 +1,93 @@
+body {
+  font-size: 12px;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+/*解决高度塌陷的问题*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.miniprogram-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.miniprogram-item {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px #c7c7c7 solid;
+  border-radius: 5px;
+}
+.miniprogram-img {
+  width: 180px;
+  height: 180px;
+}
+
+.title {
+  margin: 20px 0;
+}
+
+.description {
+  width: 120px;
+  /* position: float; */
+  /* float: right; */
+}
+
+.description .content {
+}
+
+.description .content h2 {
+  font: 18px Adobe 黑体 Std;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.description .content h3 {
+  font: 15px hind;
+  color: #85a8cb;
+  margin-left: 2px;
+  line-height: 40px;
+}
+
+.description .content h4 {
+  font: 20px Adobe 黑体 Std;
+  color: #6a6a6a;
+  line-height: 40px;
+}
+.description .content h5 {
+  padding-left: 12px;
+  font: 16px hind;
+  font-weight: bold;
+  line-height: 32px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.enter-button {
+  width: 100px;
+  height: 30px;
+  background-color: #85a8cb;
+  border-radius: 3px;
+}
+
+a{
+  font:14px hind;
+	font-weight: bold;
+	color:black;
+}
