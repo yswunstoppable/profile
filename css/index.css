@@ -43,8 +43,8 @@ body{
 .header .nav{
 	float:left;
 	height: 96px;
-	width: 700px;
-	margin-left:200px;
+	width: 800px;
+	margin-left:100px;
 }
 
 .header .nav ul{
@@ -362,52 +362,3 @@ body{
 	text-align: center;
 	border-radius: 8px;
  }
-
-.footer{
-	height:350px;
-	background-color: black;
-	padding-top: 50px;
-}
-
-.footer .info .school{
-	height:200px;
-	width:465px;
-	float:left;
-}
-
-.footer .info .contact{
-	height:200px;
-	width:465px;
-	float:left;
-}
-
-.footer .info h3{
-	font:20px  bitter;
-	font-weight: bold;
-	color:#fff;
-	margin-bottom: 30px;
-}
-
-.footer .info  p{
-	font:14px Adobe 黑体 Std;
-	color:gray;
-}
-
-.footer .info  p img{
-	padding-top:6px;
-	width:16px;
-	padding-right: 10px;
-}
-
-.footer .info  p:hover{
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.footer .copyright{
-	margin-top:70px;
-	border-top:1px solid gray;
-	padding-top: 25px;
-	font:13px lato;
-	color:gray;
-}
